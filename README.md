@@ -1,20 +1,30 @@
 [![PyTest](https://github.com/KubaTaba1uga/python_script_executor/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/KubaTaba1uga/python_script_executor/actions/workflows/pytest.yml) 
 [![codecov](https://codecov.io/gh/KubaTaba1uga/python_script_executor/branch/master/graph/badge.svg?token=BHLC73ZGK0)](https://codecov.io/gh/KubaTaba1uga/python_script_executor)
+# Configuration description
+
+List of packages that app install and configure:
+
+1. xorg
+2. lightdm
+3. xfce4
+4. terminator (shell terminal)
+
+
+Configuration tested on:
+
+	- Debian 9
+	- Debian 10
+	- Debian 11
 
 # Requirements
 
 1. Python >=3.9
 2. Poetry
+3. sudo
 
-Python 3.9.8 installation:
+Requirements installation:
 
-	cd .prep
-	/bin/bash install_python3_9.sh
-
-Poetry installation:
-
-	python3 -m pip install poetry
-
+	/bin/bash prepare_to_start.sh
 
 # App description 
 
