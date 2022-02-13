@@ -22,3 +22,6 @@ do
 		loop_controll=false
 	fi
 done
+
+# Disable logging to root account 
+sudo sed -i 's/root:x:0:0:root:\/root:\/bin\/bash/root:x:0:0:root:\/root:\/sbin\/nologin/g' /etc/passwd
