@@ -65,4 +65,4 @@ To start app with default settings use:
 
 To show help use:
 
-	python3 -m poetry run start.py -h
+	python3 -m poetry run python start.py -h
