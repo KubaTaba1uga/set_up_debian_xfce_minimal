@@ -3,7 +3,7 @@
 non_interactive="DEBIAN_FRONTEND=noninteractive"
 
 # Install GUI
-sudo  $non_interactive apt-get install -y \
+sudo  $non_interactive apt-get install -y --no-install-recommends \
     libxfce4ui-utils \
     thunar \
     xfce4-appfinder \
@@ -16,5 +16,5 @@ sudo  $non_interactive apt-get install -y \
     xfconf \
     xfdesktop4 \
     xfwm4 \
-#    adwaita-qt \
-#    qt5ct 
+    adwaita-qt \
+    qt5ct 
